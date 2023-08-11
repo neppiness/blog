@@ -1,5 +1,5 @@
 ---
-title: blog-design
+title: 블로그 시작하기
 date: 2023-08-11 00:25:59
 tags:
 ---

@@ -42,7 +42,7 @@ categories: Vim
 
 <br>
 
-### 필수키
+### 반드시 익혀야 할 필수 조작법
 * h, j, k, l - 각각 좌하상우로 커서를 움직입니다.
 * i, I, o, O, a, A - 편집모드 진입하는 방법들입니다.
 * esc, ctrl + [ - 노말모드로 빠져나오는 escape 동작 키입니다.
@@ -58,6 +58,16 @@ categories: Vim
   - dfz: 현위치에서 우측에 최초로 발견되는 z를 포함한 블록을 지운다.
   - yt(: 현위치에서 우측으로 최초로 발견되는 여는 괄호 전까지의 내용을 블록처리하고 복사한다.
 * v, V: 각각 visual 모드와 visual line 모드로 진입합니다.
+
+<br>
+
+### 필수 참고자료
+* 위 이상의 조작에 대해 설명하는 건 어렵기 때문에 이에 대한 좋은 영상으로 대체합니다.
+  1. [Vim As Your Editor - Introduction](https://youtu.be/X6AR2RMB5tE)
+  2. [Vim As Your Editor - Horizontal](https://youtu.be/5JGVtttuDQA)
+  3. [Vim As Your Editor - Vertical Movements](https://youtu.be/KfENDDEpCsI)
+  4. [Vim As You Editor - Advanced Motions P1](https://youtu.be/qZO9A5F6BZs)
+  5. [Vim as your editor - Advanced Motions P2](https://youtu.be/uL9oOZStezw)
 
 <br>
 

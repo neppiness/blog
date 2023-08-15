@@ -104,6 +104,8 @@
 <li>개발하는 주변 친구들도 한 번씩은 써본 경험이 있고, 회사에 Vim을 쓰는 동료들도 있다고 들었습니다.</li>
 <li>개발 공부를 처음 시작할 때부터 VS Code로 시작해 항상 VS Code만 써왔는데, 혹시 Vim이 이를 월등히 뛰어넘는 좋은 대안이 될 수 있지 않을까 기대를 품고 정보를 찾기 시작했습니다.</li>
 </ul>
+<br>
+
 <h3 id="입문하기-위해-파고들-때-미리-알았으면-좋았을-것"><a href="#입문하기-위해-파고들-때-미리-알았으면-좋았을-것" class="headerlink" title="입문하기 위해 파고들 때 미리 알았으면 좋았을 것"></a>입문하기 위해 파고들 때 미리 알았으면 좋았을 것</h3><ul>
 <li>Vim은 단순 텍스트 편집기입니다.</li>
 <li>neovim, 또는 nvim은 Vim 기반으로 다양한 플러그인을 통해 확장해 쓸 수 있는 프로그램입니다.<ul>
@@ -112,6 +114,8 @@
 </ul>
 </li>
 </ul>
+<br>
+
 <h3 id="처음으로-찾은-정보"><a href="#처음으로-찾은-정보" class="headerlink" title="처음으로 찾은 정보"></a>처음으로 찾은 정보</h3><ul>
 <li><a target="_blank" rel="noopener" href="https://youtu.be/cY0JxzENBJg">Vim 제대로 가르쳐 줌 🤓 (개발자라면 한번쯤 꼭 쓴다는 Vim)</a><ul>
 <li>드림코딩 영상은 항상 무난히 잘 정리된 정보를 줍니다. </li>
@@ -122,6 +126,8 @@
 </ul>
 </li>
 </ul>
+<br>
+
 <h3 id="적응한-과정"><a href="#적응한-과정" class="headerlink" title="적응한 과정"></a>적응한 과정</h3><ul>
 <li>VS Code에 Vim 플러그인 설치<ul>
 <li>VS Code를 똑같이 쓰지만, 편집 기능을 활용할 때 Vim과 유사한 느낌으로 코드를 작성할 수 있습니다.</li>
@@ -136,6 +142,8 @@
 </ul>
 </li>
 </ul>
+<br>
+
 <h3 id="필수키"><a href="#필수키" class="headerlink" title="필수키"></a>필수키</h3><ul>
 <li>h, j, k, l - 각각 좌하상우로 커서를 움직입니다.</li>
 <li>i, I, o, O, a, A - 편집모드 진입하는 방법들입니다.</li>
@@ -147,7 +155,11 @@
 <li>이를 y2j나 d5k와 같은 식으로 응용하면 아래로 2j 위치에 있는 줄까지 복사하고, 위로 5k 위치에 있는 줄까지 지울 수 있습니다.</li>
 </ul>
 </li>
-<li>i, a - in과 관사 a를 뜻하며, daw, ci(와 같이 활용될 수 있습니다. daw: 한 단어를 지운다. ci(: 괄호 안에 있는 내용을 변경한다.</li>
+<li>i, a - in과 관사 a를 뜻하며, daw, ci(와 같이 활용될 수 있습니다.<ul>
+<li>daw: 한 단어를 지운다.</li>
+<li>ci(: 괄호 안에 있는 내용을 변경한다.</li>
+</ul>
+</li>
 <li>f, t - forward와 to로, 현재 위치부터 지정하는 문자의 위치까지 커서를 블록지정해줍니다.<ul>
 <li>dfz: 현위치에서 우측에 최초로 발견되는 z를 포함한 블록을 지운다.</li>
 <li>yt(: 현위치에서 우측으로 최초로 발견되는 여는 괄호 전까지의 내용을 블록처리하고 복사한다.</li>
@@ -155,6 +167,8 @@
 </li>
 <li>v, V: 각각 visual 모드와 visual line 모드로 진입합니다.</li>
 </ul>
+<br>
+
 <h3 id="그래서-Vim을-왜-쓰나요"><a href="#그래서-Vim을-왜-쓰나요" class="headerlink" title="그래서 Vim을 왜 쓰나요?"></a>그래서 Vim을 왜 쓰나요?</h3><ul>
 <li>이 시점에서 말할 수 있는 건 ‘재밌다’ 뿐입니다. 키보드로 커서를 조작하는 명령을 내리고, 이를 편집 명령과 조합하여 활용하는 과정 자체가 작은 게임을 하는 것 같습니다.<ul>
 <li>다만, 그냥 익숙하게 기본 명령만을 활용해서 편집을 다 진행하고자 하면 당연히 불편할 수밖에 없습니다.</li>
@@ -163,11 +177,15 @@
 </ul>
 </li>
 </ul>
+<br>
+
 <h3 id="의견"><a href="#의견" class="headerlink" title="의견"></a>의견</h3><ul>
 <li>다들 Vim에 대해서 다른 의견을 말합니다. 누구는 불편하고 구세대의 유산이며, 마우스로도 동일한 작업을 충분히 빨리 할 수 있는데 왜 써야 하는지 모르겠다는 의견도 많습니다.</li>
 <li>개인의 숙련도에 따라 다를 수밖에 없겠지만, 정말 Vim을 통해 빠른 개발이 가능한지는 좀 더 두고 볼 일인 듯합니다.</li>
 <li>또한, 새로운 것에 대한 모험을 할 필요성을 못 느낀다면 차라리 지금 쓰고 있는 툴을 마스터하는 게 더 도움이 될 것이라 생각합니다.</li>
 </ul>
+<br>
+
 <h3 id="맺음말"><a href="#맺음말" class="headerlink" title="맺음말"></a>맺음말</h3><ul>
 <li>저는 현재는 nvim 세팅까지 한 상태입니다.</li>
 <li>한동안은 이 환경으로 개발하고 공부하는 과정을 진행해보고자 합니다.</li>
@@ -177,7 +195,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://neppiness.github.io/start-to-use-nvim/" data-id="cllbyin98000254rm9tbv1b89" data-title="Vim 입문기" class="article-share-link"><span class="fa fa-share">공유</span></a>
+      <a data-url="https://neppiness.github.io/start-to-use-nvim/" data-id="cllbys2fv00010wrm4ew00l5e" data-title="Vim 입문기" class="article-share-link"><span class="fa fa-share">공유</span></a>
       
       
       
@@ -265,7 +283,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://neppiness.github.io/blog-design/" data-id="cllbyin8z000054rmcjwibo57" data-title="블로그 시작하기" class="article-share-link"><span class="fa fa-share">공유</span></a>
+      <a data-url="https://neppiness.github.io/blog-design/" data-id="cllbys2fr00000wrm467jgdtw" data-title="블로그 시작하기" class="article-share-link"><span class="fa fa-share">공유</span></a>
       
       
       
@@ -310,7 +328,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://neppiness.github.io/start-a-blog/" data-id="cllbyin93000154rmahps8n5o" data-title="첫 포스팅입니다" class="article-share-link"><span class="fa fa-share">공유</span></a>
+      <a data-url="https://neppiness.github.io/start-a-blog/" data-id="cllbys2g200040wrm0glr4hkw" data-title="첫 포스팅입니다" class="article-share-link"><span class="fa fa-share">공유</span></a>
       
       
       
